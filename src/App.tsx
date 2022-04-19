@@ -2,6 +2,9 @@ import { useState } from "react";
 import { add, remove, toggleCompleted } from "./Features/todoSlice";
 import { useAppDispatch, useAppSelector } from "./Store";
 
+//This is commit
+
+
 const App = () => {
 
   const todos = useAppSelector(state => state.todos);
